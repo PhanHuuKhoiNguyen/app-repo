@@ -137,7 +137,7 @@ export default function RoleLoginPage() {
 
             <Form.Item
               name="password"
-              label={<span style={{ fontWeight: 600, color: '#334155' }}>Mật khẩu</span>}
+              label={<span style={{ fontWeight: 600, color: '#334155' }}>Mật khẩuuuuuuuuuuuu</span>}
               rules={[{ required: true, message: 'Vui lòng nhập mật khẩu!' }]}
             >
               <Input.Password
