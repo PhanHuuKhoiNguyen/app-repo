@@ -1,6 +1,6 @@
-export const API_BASE_URL = 'http://localhost:8080/api';
-export const WS_URL = 'http://localhost:8080/ws';
-export const TOKEN_KEY = 'access_token';
+// SAU
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+export const WS_URL = import.meta.env.VITE_WS_URL || 'http://localhost:8080/ws';export const TOKEN_KEY = 'access_token';
 export const REFRESH_TOKEN_KEY = 'refresh_token';
 
 export const TICKET_STATUS_COLORS = {
